@@ -25,6 +25,7 @@ library(dplyr)`
 `subject <- bind_rows(subject_test, subject_train)`
 
 `Y <- bind_rows(y_test, y_train)`
+
 6. unmerged test and train data is removed
 `rm(X_test, X_train)`
 
